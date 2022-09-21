@@ -20,12 +20,12 @@ jobs:
           args: >-
             --defaults=data/shared.yaml
             --to=jats_articleauthoring+element_citations
-            --output=paper.jats.xml
-            paper.md
+            --output=article.jats.xml
+            index.md
 
       - name: Validate writer output
         run: |
-          filename=paper.jats.xml
+          filename=article.jats.xml
           printf "Validating file %s\n" "$filename"
           json="$(curl --form "xml=@${filename}" --silent "$VALIDATOR_URL")"
           err_count="$(printf '%s' "$json" | jq '.errors | length')"
@@ -40,5 +40,5 @@ jobs:
       - name: Upload JATS output
         uses: actions/upload-artifact@v1
         with:
-          name: paper.jats.xml
-          path: paper.jats.xml
+          name: article.jats.xml
+          path: article.jats.xml
