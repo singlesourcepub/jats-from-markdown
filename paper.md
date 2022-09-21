@@ -123,8 +123,8 @@ presentational. The table below gives a small example.
 |-----------------|------------|-------------------------|----------|
 | Emphasis        | `*this*`   | `<italic>this</italic>` | *this*   |
 | Strong emphasis | `**that**` | `<bold>that</bold>`     | **that** |
-| Superscript     | `H~2~O`    | `H<sub>2</sub>O`        | H~2~0    |
-| Subscript       | `Ca^2+^`   | `Ca<sup>2+</sup>`       | Ca^2+^   |
+| Subscript       | `H~2~O`    | `H<sub>2</sub>O`        | H~2~0    |
+| Superscript     | `Ca^2+^`   | `Ca<sup>2+</sup>`       | Ca^2+^   |
 
 ## Mathematical Formulæ
 
