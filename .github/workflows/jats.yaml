@@ -20,6 +20,7 @@ jobs:
           args: >-
             --defaults=data/shared.yaml
             --to=jats_articleauthoring+element_citations
+            --metadata-file=AUTHORS.yaml
             --output=article.jats.xml
             index.md
 

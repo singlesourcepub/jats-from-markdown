@@ -1,42 +1,6 @@
 ---
 title: JATS from Markdown
 subtitle: Developer friendly single-source scholarly publishing
-author:
-- name: Albert Krewinkel
-  email: albert@zeitkraut.de
-  orcid: 0000-0002-9455-0796
-  affiliation:
-  - id: 1
-    organization: Open Journals
-- name: Juanjo Bazán
-  orcid: 0000-0001-7699-3983
-  affiliation:
-  - id: 2
-    organization: Open Journals
-- name: Arfon M. Smith
-  orcid: 0000-0002-3957-2474
-  affiliation:
-  - id: 3
-    organization: GitHub
-    country: USA
-    country-code: US
-  - id: 4
-    organization: Open Journals
-copyright:
-  statement: >-
-    © 2022 The authors. Published under a CC BY-SA 4.0 license.
-  year: 2022
-  holder: Albert Krewinkel, Juanjo Bazán, Arfon Smith
-license:
-  - text: >-
-      This work is licensed under a Creative Commons
-      Attribution-ShareAlike 4.0 International License.
-    type: open-access
-    link: 'https://creativecommons.org/licenses/by-sa/4.0/'
-  - >-
-      The copyright holder grants the U.S. National Library of Medicine
-      permission to archive and post a copy of this paper on the Journal
-      Article Tag Suite Conference proceedings website.
 bibliography: paper.bib
 ---
 
