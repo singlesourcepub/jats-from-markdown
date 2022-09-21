@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run pandoc
-        uses: 'docker://pandoc/core:edge'
+        uses: 'docker://pandoc/core:2.19.2'
         with:
           args: >-
             --defaults=data/shared.yaml
