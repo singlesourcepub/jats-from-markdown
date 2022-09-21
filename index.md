@@ -72,11 +72,11 @@ conversion as the major point of interest.
 
 # Markup Conversion
 
-Below we demonstrate how a the conversion takes plance by examining
-some key document structures and how they are
-represented in Markdown and converted to JATS. This should not
-be understood as a complete reference, but as a few examples to
-demonstrate the general system capabilities.
+Below we demonstrate how a the conversion takes place by examining
+key document structures and how they are represented in Markdown
+and converted to JATS. This should not be understood as a complete
+reference, but as a few examples to demonstrate the general system
+capabilities.
 
 ## Emphasis Markup
 
@@ -248,7 +248,7 @@ it ever be necessary.
 # Architecture
 
 The unconventional nature of the system increases the importance
-of easy deployment and usability: Software developers are very
+of easy deployment and usability: Software developers are
 accustomed to Markdown as a tool for software documentation and
 exchange, but less used to using it for publishing. As part of the
 JOSS experience, authors are offered an easy way to generate
