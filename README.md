@@ -1,12 +1,12 @@
 JATS from Markdown: Developer friendly single-source scholarly publishing
 ==========================================================================
 
-This repository contains the sources for the [article]() and slides for
-[JATS-Con 2022][].
+Strategies to convert articles authored in Markdown into Journal
+Article Tag Suite XML.
 
-Use `make talk.html` to generate the slideshow. The paper can be
-converted to either JATS or PDF via `make paper.jats.xml` and
-`make paper.pdf`, respectively.
+While this repository started life as an [article][] for [JATS-Con
+2022][], the goal is to turn it into a living document that can be
+used as an up-to-date resource by anyone interested in the topic.
 
 [article]: https://www.ncbi.nlm.nih.gov/books/NBK579698/
 [JATS-Con 2022]: https://jats.nlm.nih.gov/jats-con/
