@@ -2,14 +2,14 @@ PANDOC = pandoc
 TALK_FILE=talk.md
 REVEALJS_TGZ = https://github.com/hakimel/reveal.js/archive/4.2.1.tar.gz
 
-paper.jats.xml: paper.md filters/abstract-to-meta.lua
+article.jats.xml: index.md filters/abstract-to-meta.lua
 	$(PANDOC) \
 	    --defaults=data/jats.yaml \
 	    --to=jats_articleauthoring \
 	    --output=$@ \
 	    $<
 
-paper.pdf: paper.md filters/abstract-to-meta.lua
+article.pdf: index.md filters/abstract-to-meta.lua
 	$(PANDOC) \
 	    --defaults=data/latex.yaml \
 	    --to=latex \
